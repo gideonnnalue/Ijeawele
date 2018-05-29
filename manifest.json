@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "A Feminist Manifesto in 15 Suggestions",
+    "description": "This is a letter from Chimmamnda Adichie to a friend who wanted suggestions on how to raise her daughter a feminist.",
+    "version": "1.0.0",
+    "author": "Nwose Lotanna",
+   "browser_action": {
+      "default_icon": "tab-icon.jpg",
+      "default_title": "Dear Ijeawele"
+    },
+   "chrome_url_overrides" : {
+     "newtab": "newtab.html"
+   },
+    "permissions": ["activeTab"]
+   }
